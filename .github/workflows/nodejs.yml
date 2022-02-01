@@ -24,5 +24,6 @@ jobs:
         npm test
       env:
         CI: true
+        CODECOV_TOKEN: 'c2a05b2b-32c9-457b-8c3a-f70d8692b43c'
     - name: Upload coverage to Codecov
       run: ./bin/codecov
